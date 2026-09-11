@@ -1,5 +1,14 @@
 {
   "customizations": {
+    "codespaces": {
+      "repositories": {
+        "OWNER/TARGET-REPO-NAME":{
+          "permissions": {
+            "contents": "write"
+          }
+        }
+      }
+    }
     "vscode": {
       "extensions": [
         "GitHub.copilot",
